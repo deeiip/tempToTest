@@ -181,21 +181,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="LocalDataModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LocalDataModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LocalDataModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LocalDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LocalDataModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LocalDataModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="ProductPrototype.cs">
       <DependentUpon>AzureStorageModel.tt</DependentUpon>
     </Compile>
@@ -236,23 +221,6 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <EntityDeploy Include="LocalDataModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>LocalDataModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="LocalDataModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>LocalDataModel.edmx</DependentUpon>
-      <LastGenOutput>LocalDataModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="LocalDataModel.edmx.diagram">
-      <DependentUpon>LocalDataModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="LocalDataModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>LocalDataModel.edmx</DependentUpon>
-      <LastGenOutput>LocalDataModel.cs</LastGenOutput>
-    </Content>
     <EntityDeploy Include="AzureStorageModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>AzureStorageModel.Designer.cs</LastGenOutput>
