@@ -1,0 +1,6 @@
+namespace GoWipe.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}
